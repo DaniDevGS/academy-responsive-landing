@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academia de informática más grande de Venezuela, formamos programadores en Python, Java, JavaScript y lenguajes web">
+    <script src="https://kit.fontawesome.com/daf8c554e7.js" crossorigin="anonymous"></script>
+    <title>Info School - Academia de Informática</title>
+    <link rel="stylesheet" href="src/CSS/styles.css">
+    <link rel="shortcut icon" href="./src/assets/img/Logo academia.png" type="image/png">
+    <script src="src/JS/script.js"></script>
+</head>
+<body>
+
+    <!-- Botón para abrir menú móvil -->
+    <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="sidebar">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <!-- Menú lateral para móviles -->
+    <aside id="sidebar" class="sidebar" aria-label="Menú de navegación principal">
+        <button class="close-btn" aria-label="Cerrar menú">&times;</button>
+        <nav class="sidebar-links" aria-label="Enlaces de navegación">
+            <a href="#all-courses" class="sidebar-link"><i class="fa-solid fa-video"></i>Cursos</a>
+
+            <a href="#projects" class="sidebar-link"><i class="fa-solid fa-folder"></i>Proyectos</a>
+
+            <a href="#teachers" class="sidebar-link"><i class="fa-solid fa-chalkboard"></i> Profesores</a>
+
+
+            <a href="#contact" class="sidebar-link"><i class="fa-solid fa-phone"></i>Contactos</a>
+
+        </nav>
+    </aside>
+    <div class="sidebar-overlay"></div>
+
+
+
+    <!-- Navegación principal -->
+    <header>
+        <nav aria-label="Navegación principal">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="src/assets/img/Logo academia.png" alt="Logo Academia Info School">
+                </div>
+                <div class="nav-links">
+                    <a href="#all-courses" class="nav-link"><i class="fa-solid fa-video"></i> Cursos</a>
+
+                    <a href="#projects" class="nav-link"><i class="fa-solid fa-folder"></i> Proyectos</a>
+
+                    <a href="#teachers" class="nav-link"><i class="fa-solid fa-chalkboard"></i> Profesores</a>
+
+                    <a href="#contact" class="nav-link"><i class="fa-solid fa-phone"></i> Contactos</a>
+
+                    <div class="button_login">
+                        <div class="circle_button">
+                            <a href="#Login"><button><i class="fa-regular fa-user"></i></button></a>
+                        </div>
+                        <a href="#Login" class="login">Iniciar Sesion</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1><i class="fa-thin fa-receipt" aria-hidden="true"></i>Conviértete en Desarrollador de Software <strong id="hero-title">Info School</strong></h1>
+                <p>Todo lo que necesitas aprender en un sólo lugar.</p>
+            </div>
+        </section>
+
+        <!-- Cursos Destacados -->
+        <section class="featured" aria-labelledby="featured-courses">
+            <h2 id="featured-courses" class="section-title">Cursos destacados</h2>
+            <div class="hero-grid">
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=python" alt="Logo Python" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Python</h3>
+                        <p>En este curso de cero a intermedio aprenderás sobre la sintaxis de Python y finalizarás aprendiendo Programación Orientada a Objetos.</p>
+                        <!-- <footer>Empieza el día 28 de Septiembre del 2025</footer> -->
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=react" alt="Logo React" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de JavaScript (React)</h3>
+                        <p>En este curso de cero a avanzado aprenderás sobre aplicaciones web y móviles usando React.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=django" alt="Logo Django" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Python Avanzado (Django)</h3>
+                        <p>En este curso de Python avanzado aprenderas desarrollo Backend con Python.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Todos los cursos -->
+        <section class="featured" aria-labelledby="all-courses">
+            <h2 id="all-courses" class="section-title">Todos los cursos</h2>
+            <div class="hero-grid">
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=python" alt="Logo Python" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Python</h3>
+                        <p>En este curso de cero a intermedio aprenderás sobre la sintaxis de Python y finalizarás aprendiendo Programación Orientada a Objetos.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=django" alt="Logo Django" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Python Avanzado (Django)</h3>
+                        <p>En este curso de Python avanzado aprenderas desarrollo Backend con Python.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=tensorflow" alt="Logo TensorFlow" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de desarrollo con IA (Python)</h3>
+                        <p>En este curso aprenderas a crear Inteligencias Artificiales con Python.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=mysql,mongodb" alt="Logos MySQL y MongoDB" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Bases de datos</h3>
+                        <p>En este curso aprenderás Bases de datos Relacionales y No Relacionales</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=git,github" alt="Logos Git y GitHub" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Introducción a Git y GitHub</h3>
+                        <p>Conversatorio realizado el día jueves 29 de junio.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=html,css,js" alt="Logos HTML, CSS y JavaScript" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Frontend (HTML, CSS, JavaScript)</h3>
+                        <p>En este curso de cero aprenderás a crear páginas web interactivas.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=react" alt="Logo React" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de JavaScript Avanzado (React)</h3>
+                        <p>En este curso de cero a avanzado aprenderás sobre aplicaciones web y móviles usando React.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=java" alt="Logo React" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de cero a avanzado de Java</h3>
+                        <p>En este curso de cero a avanzado aprenderás sobre el lenguaje de programacion Java.</p>
+                    </div>
+                </article>
+
+                <article class="hero-card">
+                    <div class="background-courses">
+                        <img src="https://skillicons.dev/icons?i=tailwind,bootstrap" alt="Logo React" class="logo-courses">
+                    </div>
+                    <div class="hero-info">
+                        <h3>Curso de Tailwind y Bootstrap</h3>
+                        <p>En este curso de cero a avanzado aprenderás sobre aplicaciones web y móviles usando React.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <a href="#">
+                    <img src="src/assets/img/Logo academia.png" alt="Info School" width="90">
+                </a>
+            </div>
+            
+            <p class="copyright">&copy; 2025 Info School. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
