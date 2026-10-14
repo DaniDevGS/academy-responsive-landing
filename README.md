@@ -1,4 +1,4 @@
-# Computer-Academy_Frontend-Project
+# Academy responsive landing
 
 [![Estado](https://img.shields.io/badge/estado-activo-brightgreen)](https://github.com/DaniDevGS/computer-academy_frontend-project)
 [![Licencia](https://img.shields.io/badge/licencia-CC_BY--ND_4.0-lightgrey)](https://github.com/DaniDevGS/computer-academy_frontend-project)
